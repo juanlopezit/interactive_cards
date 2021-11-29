@@ -1,0 +1,41 @@
+.card{
+    width: 350px;
+    height: 450px;
+    background-color: rgba(53, 70, 22, 0.8) !important;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    transition: all 2s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 15px 1px rgba(235, 255, 241, 0.5),
+                -5px -5px 15px 1px rgba(235, 255, 241, 0.5);
+    transition: all 0.7s linear;
+}
+
+.card-title{
+    color: rgb(12, 31, 6);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.card-body{
+    padding: 1rem 0 !important;
+    font-family: serif;
+}
+
+.card-text{
+    color:rgb(159, 161, 161);
+    font-size: 1.2rem;
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+.card-img-top:hover{
+    transform: scale(1.3);
+}
